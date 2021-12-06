@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-manage-users-permissions",
-  "version": "0.0.3",
-  "description": "Manage users permissions from routes configuration.",
+  "name": "strapi-plugin-routes-permissions",
+  "version": "0.0.4",
+  "description": "Manage routes permissions from the routes configuration files.",
   "strapi": {
-    "name": "Manage Strapi Users Permissions",
+    "name": "Manage Strapi Routes Permissions",
     "icon": "plug",
-    "description": "Manage users permissions from routes configuration"
+    "description": "Manage routes permissions from the routes configuration files"
   },
   "scripts": {
     "release": "standard-version && git push --follow-tags && npm publish"
