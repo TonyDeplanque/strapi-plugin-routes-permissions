@@ -1,14 +1,20 @@
 {
   "name": "strapi-plugin-manage-users-permissions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manage users permissions from routes configuration.",
   "strapi": {
     "name": "Manage Strapi Users Permissions",
     "icon": "plug",
     "description": "Manage users permissions from routes configuration"
   },
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
   "dependencies": {
     "fast-glob": "^3.2.7"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.2"
   },
   "author": {
     "name": "Tony Deplanque",
