@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-routes-permissions",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Manage routes permissions from the routes configuration files.",
   "strapi": {
     "name": "Manage Strapi Routes Permissions",
@@ -32,5 +32,18 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "strapi-plugin",
+    "strapi-routes",
+    "strapi-permissions",
+    "routes",
+    "permissions",
+    "users-permissions",
+    "routes-permissions",
+    "migrate",
+    "migration"
+  ],
   "license": "MIT"
 }
