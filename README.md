@@ -1,6 +1,6 @@
-# Strapi plugin manage users permissions
+# Strapi plugin routes permissions
 
-Manage easly users permissions from routes configuration files.
+Manage easly routes permissions from routes configuration files.
 Just add `permissions` key in your routes methods and the roles type permission value.
 
 Example
