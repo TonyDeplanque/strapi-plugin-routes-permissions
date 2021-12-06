@@ -41,7 +41,7 @@ Example
 ``config/functions/bootstrap.js``
 ````
 module.exports = async () => {
-  await strapi.plugins['strapi-plugin-routes-permissions'].services.routespermissions.configureRoutesPermissions()
+  await strapi.plugins['routes-permissions'].services.routespermissions.configureRoutesPermissions()
 };
 ````
 
@@ -52,6 +52,6 @@ Example
 ``migrations/v1_configureRoutesPermissions.js``
 ````
 module.exports = async () => {
-  await strapi.plugins['strapi-plugin-routes-permissions'].services.routespermissions.configureRoutesPermissions()
+  await strapi.plugins['routes-permissions'].services.routespermissions.configureRoutesPermissions()
 };
 ````
