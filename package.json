@@ -7,6 +7,10 @@
     "icon": "plug",
     "description": "Manage routes permissions from the routes configuration files"
   },
+  "homepage": "https://github.com/TonyDeplanque/strapi-plugin-routes-permissions",
+  "bugs": {
+    "url": "https://github.com/TonyDeplanque/strapi-plugin-routes-permissions/issues"
+  },
   "scripts": {
     "release": "standard-version && git push --follow-tags && npm publish"
   },
